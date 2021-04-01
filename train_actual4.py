@@ -7,7 +7,7 @@
 # Installing Theano
 # pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
 
-# Part 1 - Building the CNN
+# Part 1 - Building the CNN 
 
 # Importing the Keras libraries and packages
 import numpy as np
@@ -70,12 +70,8 @@ train_datagen = ImageDataGenerator(rescale = 1./255,
                                    horizontal_flip = True,
                                    fill_mode = 'nearest')
 
-#datagen = ImageDataGenerator(
-#        shear_range=0.2,
-#        zoom_range=0.2,
-#        horizontal_flip=True,
-#        fill_mode='nearest')
 
+# one more comment
 
 
 test_datagen = ImageDataGenerator(rescale = 1./255)
